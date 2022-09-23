@@ -1,7 +1,10 @@
 Hello World!
 
 *hello in italics*
+
 **WORLD! in bold**
+
+You need an extra newline to ensure lines don't render on the same line.
 
 # heading 1
 ## heading 2
@@ -12,7 +15,10 @@ Hello World!
 ![Image](https://cse.ucsd.edu/sites/cse.ucsd.edu/files/faculty/miranda17-115x150.png)
 
 > The programmer is the victim, investigator, and suspect.
-/- A wise man
+
+\- A wise man
+
+(\ is the escape sequence)
 
 My courses this quarter
 ---
