@@ -1,3 +1,12 @@
+LAB REPORTS
+---
+---
+[Lab 0](lab-report-1-week-0.html)
+
+---
+
+Below is formatting practice for Lab 0 (will be removed later)
+
 Hello World!
 
 *hello in italics*
