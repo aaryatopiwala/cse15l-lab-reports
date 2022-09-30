@@ -2,6 +2,7 @@
 
 ## Installing VS Code
 VS Code is already installed on my computer, but if you need to install it again, use the link below:
+
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ![Image](Images/Report0.PNG)
@@ -43,7 +44,7 @@ Now observe that after using `scp` on my *local* computer, I can use `ls` and se
 
 ## Setting an SSH Key
 ![Image](Images/Step7-1.PNG)
-For this step make sure you first type `ssh-keygen` on your *local* terminal. Then you can press enter for the file and passphrase (leave it empty). Nexy you'll type in the above `scp` command to send the *public* key to the remote server. You will need to enter your password for this `scp` command.
+For this step make sure you first type `ssh-keygen` on your *local* terminal. Then you can press enter for the file and passphrase (leave it empty). Next you'll type in the above `scp` command to send the *public* key to the remote server. You will need to enter your password for this `scp` command.
 
 ![Image](Images/Step7-2.PNG)
 
@@ -54,9 +55,9 @@ Consider the following line:
 
 ```scp WhereAmI.java cs15lfa22XX@ieng6.ucsd.edu:~/; ssh cs15lfa22XX@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```
 
-Semicolons can be used to write multiple commands on one line. So first the `scp` command is ran, transfering the file to the server. Then the `ssh` command with the quotes is ran. Since there are quotes, only the commands within them are ran, and then the remote is exited. Once again, the commands with quotes have a semicolon, so those commands will run one after another.
+Semicolons can be used to write multiple commands on one line. So first the `scp` command is ran, copying the file to the server. Then the `ssh` command with the quotes is ran. Since there are quotes, only the commands within them are ran, and then the remote is exited. Once again, the commands with quotes have a semicolon, so those commands will run one after another.
 
-So assuming a programmer has already typed out the line above before, they only need to press the up arrow *once* and then press enter (2 key strokes) to save a local file to remote. 
+So assuming a programmer has already typed out the line above before, they only need to press the up arrow *once* and then press enter (2 key strokes) to save, and then run, a local file to remote. 
 
 In the image below, I can repeat this command twice in about 4 to 5 keystrokes:
 ![Image](Images/Step8.PNG)
