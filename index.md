@@ -45,7 +45,7 @@ Courses next quarter
 3. CSE 20
 4. SYN 1
 
-In python 3, `print "Hello!"` changed to `print("Hello!)`
+In python 3, `print "Hello!"` changed to `print("Hello!")`
 
 ```
 # Java
