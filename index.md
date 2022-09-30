@@ -3,7 +3,10 @@ LAB REPORTS
 ---
 [Lab 0](lab-report-1-week-0.html)
 
+[Lab 1](lab-report-2-week-1.html)
+
 ---
+[Link to about](https://aaryatopiwala.github.io/cse15l-lab-reports/about.html)
 
 Below is formatting practice for Lab 0 (will be removed later)
 
@@ -19,7 +22,7 @@ You need an extra newline to ensure lines don't render on the same line.
 ## heading 2
 ### heading 3???
 
-[Link to about](https://aaryatopiwala.github.io/cse15l-lab-reports/about.html)
+
 
 ![Image](https://cse.ucsd.edu/sites/cse.ucsd.edu/files/faculty/miranda17-115x150.png)
 
