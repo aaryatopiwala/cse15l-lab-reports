@@ -1,58 +1,11 @@
 LAB REPORTS
 ---
 ---
-[Lab 0](lab-report-1-week-0.html)
+[Lab 0](lab-report-0-week-0.html)
 
-[Lab 1](lab-report-2-week-1.html)
+[Lab 1](lab-report-1-week-1.html)
 
 ---
 [Link to about](https://aaryatopiwala.github.io/cse15l-lab-reports/about.html)
 
-Below is formatting practice for Lab 0 (will be removed later)
-
-Hello World!
-
-*hello in italics*
-
-**WORLD! in bold**
-
-You need an extra newline to ensure lines don't render on the same line.
-
-# heading 1
-## heading 2
-### heading 3???
-
-
-
-![Image](https://cse.ucsd.edu/sites/cse.ucsd.edu/files/faculty/miranda17-115x150.png)
-
-> The programmer is the victim, investigator, and suspect.
-
-\- A wise man
-
-(\ is the escape sequence)
-
-My courses this quarter
----
- - CSE 12
- - CSE 15L
- - MATH 20C
- - ANTH 21
-
-Courses next quarter
-1. CSE 30
-2. ECE 35
-3. CSE 20
-4. SYN 1
-
-In python 3, `print "Hello!"` changed to `print("Hello!")`
-
-```
-# Java
-class Main {
-  public static void main (String args[]){
-   double uhOh = 0.0/0.0;
- }
-}
-```
 
