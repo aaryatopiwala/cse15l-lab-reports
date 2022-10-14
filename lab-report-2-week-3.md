@@ -54,7 +54,7 @@ class SearchEngine {
 }
 ```
 
-After using `javac Server.java SearchEngine.java` and `java SearchEngine 4000` are ran, we can access our server by typing `localhost:4000` into our browser. As one can see, the array starts out empty.
+After using `javac Server.java SearchEngine.java` and `java SearchEngine 4000` , we can access our server by typing `localhost:4000` into our browser. As one can see, the array starts out empty.
 
 ![Image](Images/lab20.PNG)
 
@@ -62,7 +62,7 @@ The first method we call is add, by appending `/add?s=apple` to our domain (loca
 
 ![Image](Images/lab21.PNG)
 
-The output doesn't show the current array, but shows that the string is added to the list. The code below adds the string to the list. The `url` parameter in the `handleRequest()` method correspond to the link in the browser. The `getPath` method then only uses the path (everything after the `/` and before the `?`). If there is only a `/` then the "home page" with the current list is shown (see above image). If the path is `/add` then everything the program finds the query and splits the link based off of that. For example, based off the link in the program, the `parameters` variable would contain `["s", "apple"]`. Therefore `parameter[0]` must equal `s` in order for `parameter[1]` (which is `"apple"`) to be added to the list.
+The output doesn't show the current array, but shows that the string is added to the list. The code below adds the string to the list. The `url` parameter in the `handleRequest()` method corresponds to the link in the browser. The `getPath` method then only uses the path (everything after the `/` and before the `?`). If there is only a `/` (or no `/` at all) then the "home page" with the current list is shown (see first image). If the path is `/add` then the program splits everything after the `?` using the `=` as a "splitter". For example, based off the link in the program, the `parameters` variable would contain `["s", "apple"]`. Therefore `parameter[0]` must equal `s` in order for `parameter[1]` (which is `"apple"`) to be added to the list.
 
 ![Image](Images/lab25.PNG)
 
@@ -70,7 +70,7 @@ Here is another example of adding the string `"banana"` which uses the same code
 
 ![Image](Images/lab22.PNG)
 
-Next we can show that the "home page" works by displaying our current list after adding `"apple"` and `"banana"`.
+Next we can show that the "home page" works by displaying our current list after adding `"apple"` and `"banana"`. Once again, we don't need a `/` after 4000 to reach this page. Without a path, it is redirected to this automatically.
 
 ![Image](Images/lab23.PNG)
 
@@ -85,12 +85,6 @@ This works using the code pictured below. The `else` statement is used to captur
 
 
 # Part 2
-Choose two of the bugs from different files above. For each, show:
-
-The failure-inducing input (the code of the test)
-The symptom (the failing test output)
-The bug (the code fix needed)
-Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 
 ## Bug 1
 
@@ -111,7 +105,7 @@ The fixed code:
 
 ![Image](Images/lab28.PNG)
 
-The bug in the original code is the fact that the original array in the parameter `arr` was overwritten with the `newArray`. It should be noted that when an array is initialized, it is filled with the default values of that type. An `int[]` is filled with 0s. Consequently, the value at all indices in `arr` is changed to 0. Then `arr` is return. This is the reason why the symptom shows that the acutal value was 0. In the fixed code, the values of `newArray` are changed, and `newArray` is returned, fixing the bug.
+The bug in the original code is the fact that the original array in the parameter `arr` was overwritten with the `newArray`. It should be noted that when an array is initialized, it is filled with the default values of that type. An `int[]` is filled with 0s. Consequently, the value at all indices in `arr` is changed to 0. Then `arr` is return. This is the reason why the symptom shows that the acutal value was 0. In the fixed code, the values of `newArray` are updated with values of `arr` in reverse, and then `newArray` is returned, fixing the bug.
 
 ## Bug 2
 
