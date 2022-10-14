@@ -1,11 +1,13 @@
 LAB REPORTS
 ---
 ---
-[Lab 0](lab-report-0-week-0.html)
+[Report 0](lab-report-0-week-0.html)
 
-[Lab 1](lab-report-1-week-1.html)
+[Report 1](lab-report-1-week-1.html)
+
+[Report 2](lab-report-2-week-3.html)
 
 ---
-[Link to about](https://aaryatopiwala.github.io/cse15l-lab-reports/about.html)
+[Link to about](about.html)
 
 
