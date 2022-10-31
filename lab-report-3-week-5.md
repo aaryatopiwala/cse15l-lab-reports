@@ -32,7 +32,7 @@ Code block:
 
 ![Image](Images/Lab3-2.PNG)
 
-# `-c`
+## `-c`
 
 1. The `-c` option can be used to search for the number of occurrences of a word in the given files. `-c` by itself, however, will give the number of all files, including those with 0 occurrences. It may not be helpful to show how many files have 0 occurrences of a word, so a pipe is used. First, a list of files is generated that have exactly the word matching. Then, that only that list of files is searched through for the number of occurrences of "DNA." This is practically useful since an increased count can indicate a paper more related to DNA (2 hits vs 96 hits).
 
