@@ -9,6 +9,8 @@ LAB REPORTS
 
 [Report 3](lab-report-3-week-5.html)
 
+[Report 4](lab-report-4-week-7.html)
+
 ---
 [Link to about](about.html)
 
