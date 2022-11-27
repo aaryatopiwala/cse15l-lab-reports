@@ -29,11 +29,11 @@ java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
 ```
 
 # Screenshots
-![Image](Images/lab5-0.png)
+![Image](Images/lab5-0.PNG)
 
-![Image](Images/lab5-1.png)
+![Image](Images/lab5-1.PNG)
 
-![Image](Images/lab5-2.png)
+![Image](Images/lab5-2.PNG)
 
 # Trace
 
